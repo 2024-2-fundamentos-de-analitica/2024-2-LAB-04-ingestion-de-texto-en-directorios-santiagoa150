@@ -73,11 +73,6 @@ def pregunta_01():
 
 
     """
-
-    # Descomprimir archivo
-    with zipfile.ZipFile("files/input.zip", 'r') as zip_ref:
-        zip_ref.extractall("files/input")
-
     test = []
     for folder in ["test"]:
         for sentiment in ["negative", "positive", "neutral"]:
